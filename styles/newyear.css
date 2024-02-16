@@ -9,7 +9,7 @@
 body{
     max-width: 1600px;
 }
- /* started the banner css */
+ /* start the banner css */
 .banner{
     background: url(../images/Banner\ Image.png);
     background-position: center;
@@ -59,13 +59,14 @@ body{
 
 /* end the banner css */
 
-/* started the off section css */
+/* start the off section css */
 
 
 .newyear-off{
     margin: 0 auto;
     width: 1320px;
     height: 600px;
+    padding-bottom: 150px;
 }
 .off-title h1{
     margin: 0 auto;
@@ -107,3 +108,219 @@ body{
 
 
 /* end the off section css  */
+
+/* start the party section css */
+
+    .party{    
+        padding: 100px 100px 0;
+        margin-bottom: 100px;
+    }
+    .party-content{
+        background: url(../images/Vectorrr.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1320px;
+        height: 600px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .party-text{
+        margin: auto 0;
+    }
+    .party-text h1{
+        color: #FFF;
+        width: 642px;
+        font-family: Merriweather;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 88px;
+        letter-spacing: 7px;
+    }
+    .party-text p{
+        width: 697px;
+        color: rgba(255, 255, 255, 0.80);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .party-text button{
+        background-color: transparent;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+
+    .party-text button:hover{
+        background-color: #F00;
+    }
+
+    .party-img img{
+        margin-top: 100px;
+        width: 300px;
+        height: 400px;
+    }
+/* end the party section css */
+
+/* place section css start */
+
+    .place-content{
+        margin-top: 150px;
+        width: 1320px;
+        height: 482px;
+        margin: 0 auto;
+        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    }
+
+    .place-text{
+        text-align: center;
+        margin: auto 0;
+        padding-top: 150px;
+
+    }
+    .place-text-title{
+        color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+        text-transform: capitalize;
+    }
+    .place-text-heading{
+        text-align: center;
+        color: #070211;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+        text-transform: capitalize;
+       
+    }
+
+    .place-btn{
+        text-align: center;
+    }
+    .place-btn button{
+        color: #FFF;
+        background: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        border-radius: 8px;
+        
+        border: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+/* place section css end */
+
+
+/* newsletter css start */
+    
+    .newsletter{
+        width: 1320px;
+        height: 600px;
+        border-radius: 16px;
+        background: rgba(255, 0, 0, 0.05);
+        flex-shrink: 0;
+        margin: 0 auto;
+    }
+    .newsletter-content{
+        margin: auto;
+        text-align: center;
+    }
+
+    .newsletter-img img{
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        margin-top: 120px;
+    }
+
+    .newsletter-text h3{
+        color: #070211;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .newsletter-text p{
+        width: 896px;
+        color: rgba(7, 2, 17, 0.60);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin: auto;
+    }
+    .newsletter-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 648px;
+        height: 72px;
+        margin: 0 auto;
+    }
+
+    .newsletter-form{
+        text-align: center;
+        margin: 0;
+}
+
+    .newsletter-form input,
+    .newsletter-form button {
+        display: inline-block;
+        vertical-align: middle;
+}
+    .newsletter-form input{
+        padding: 8px;
+        font-size: 16px;
+        border-right: none;
+        margin: 0;
+        border: 2px solid #fff;
+        border-radius: 20px 0px 0px 20px;
+
+}
+
+    .submit-btn{
+        background-color: #F00;
+        border-radius: 0px 20px 20px 0px;
+        border-left: none;
+        padding: 10px;
+        font-size: 16px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+    }
+
+
+
+/* newsletter css end */
