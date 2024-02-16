@@ -321,6 +321,117 @@ body{
         margin: 0;
     }
 
-
-
 /* newsletter css end */
+
+/* footer css start */
+
+    .footer-content{
+        background: #070211;
+        width: 1520px;
+        height: 500px;
+        flex-shrink: 0;
+        margin-top: 120px;
+    }
+
+    .footer-contact{
+        width: 1320px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 120px;
+
+    }
+
+    .footer-address{
+        text-align: left;
+        
+    }
+
+    .footer-address p{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .footer-phn{
+        display: flex;
+    }
+
+    .footer-phn img{
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .footer-phn p{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .footer-web{
+        display: flex;
+    }
+
+
+    .footer-web img{
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+    .footer-web p{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .footer-social{
+        width: 1320px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .footer-social a{
+        text-decoration: none;
+    }
+
+    .footer-reserved{
+        width: 1320px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .footer-all p{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .footer-unsubscribe a{
+        text-decoration: none;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+/* footer css end */
