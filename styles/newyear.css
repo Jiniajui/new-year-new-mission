@@ -1,110 +1,112 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+/* common shared css start */
 
-body{
-    max-width: 1600px;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        max-width: 1500px;
+    }
+
+/* common shared css end */
+
+
  /* start the banner css */
-.banner{
-    background: url(../images/Banner\ Image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    margin: 50px auto;
-    position: relative;
-}
-.banner-text{
-    color: white;
-    width: 1320px;
-    height: 600px;
-    text-align: center;
-    align-items: center;
-    background-color: rgba(33, 30, 45, .4);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-    border-radius: 16px;
-    
-	
+    .banner{
+        background: url(../images/Banner\ Image.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1320px;
+        height: 600px;
+        flex-shrink: 0;
+        margin: 50px auto;
+        position: relative;
+    }
+    .banner-text{
+        color: white;
+        width: 1320px;
+        height: 600px;
+        text-align: center;
+        align-items: center;
+        background-color: rgba(33, 30, 45, .4);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 16px;
+    }
+    .banner-text h5{   
+        padding-top: 280px;
+        color: #FFF;
+        font-family: Merriweather;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 
-}
-.banner-text h5{
-    
-    padding-top: 280px;
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.banner-text h1{
-    color:#FFF;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95px;
-}
+    .banner-text h1{
+        color:#FFF;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 95px;
+    }
 
 /* end the banner css */
 
 /* start the off section css */
 
 
-.newyear-off{
-    margin: 0 auto;
-    width: 1320px;
-    height: 600px;
-    padding-bottom: 150px;
-}
-.off-title h1{
-    margin: 0 auto;
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 88px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-bottom: 40px;
-}
-.off-text h5{
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.off-text h3{
-    color: #070211;
-    text-align: center;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 50px;
-}
-
-.off-img{
-    width: 802.9px;
-    height: 500px;
-    flex-shrink: 0;
-    margin: 0 auto;
+    .newyear-off{
+        margin: 0 auto;
+        width: 1320px;
+        height: 600px;
+        padding-bottom: 150px;
     }
+    .off-title h1{
+        margin: 0 auto;
+        color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 40px;
+    }
+    .off-text h5{
+        color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .off-text h3{
+        color: #070211;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+    .off-img{
+        width: 802.9px;
+        height: 500px;
+        flex-shrink: 0;
+        margin: 0 auto;
+        }
 
 
 /* end the off section css  */
@@ -163,6 +165,7 @@ body{
         text-transform: uppercase;
         padding: 10px 15px;
         border-radius: 10px;
+        cursor: pointer;
     }
 
     .party-text button:hover{
@@ -228,12 +231,187 @@ body{
         line-height: normal;
         text-transform: uppercase;
         border-radius: 8px;
-        
         border: none;
         padding: 10px 15px;
         border-radius: 10px;
+        cursor: pointer;
     }
 /* place section css end */
+
+/* offer section start */
+    .offer{
+        width: 1320px;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .best-offer h4{
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 100px;
+
+    }
+
+    .best-offer h3{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize; 
+    }
+
+    .best-offer p{
+        width: 393px;
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .best-offer-img{
+        width: 463px;
+        height: 463px;
+        flex-shrink: 0;
+        border: 15px solid #F00;
+        border-radius: 463px;
+    }
+
+    .best-offer-img img{
+        width: 364.844px;
+        height: 364.844px;
+        flex-shrink: 0;
+        border-radius: 364.844px;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+    }
+
+    .offer-2024 h3{
+        color: #F00;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 100px;
+    }
+
+    .offer-2024 p{
+        width: 276px;
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .offer-2024 img{
+        width: 140px;
+        height: 140px;
+        flex-shrink: 0;
+    }
+
+/* offer css end */
+
+/* holiday css start  */
+
+    .holiday{
+        width: 1320px;
+        height: 900px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .holiday-text{
+        margin: auto;
+        text-align: center;
+    }
+
+    .holiday-text h4{
+        color: #070211;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .holiday-text h2{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .holiday-title{
+        color: #F00;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .holiday-text p{
+        width: 1068px;
+        color: rgba(7, 2, 17, 0.60);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        margin: 0 auto;
+    }
+
+    .holiday-gift{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .holiday-box1{
+        width: 500px;
+        height: 500px;
+        bottom: -20%;
+        right: 20%;
+        transform: translate(30%, 20%);
+        position: relative;
+
+    }
+    .discount{
+        display: flex;
+        justify-content: center;
+        gap: none;
+    }
+    .sale50{
+        width: 206px;
+        height: 206px;
+        flex-shrink: 0;
+        position: relative;
+        top: -20%;
+        left: 30%;
+        transform: translate(20%, 90%);
+
+    }
+
+    .holiday-rect{
+        border-radius: 16px
+    }
+
+/* holiday css end */
 
 /* portfolio css start */
 
@@ -373,8 +551,6 @@ body{
         opacity: .7;
     }
 
-
-
 /* portfolio css end */
 
 
@@ -486,6 +662,7 @@ body{
 
     .footer-address{
         text-align: left;
+        margin-bottom: 20px;
         
     }
 
@@ -506,6 +683,7 @@ body{
         width: 20px;
         height: 20px;
         flex-shrink: 0;
+        padding-top: 10px;
     }
 
     .footer-phn p{
@@ -515,6 +693,7 @@ body{
         font-style: normal;
         font-weight: 500;
         line-height: 40px;
+
     }
 
     .footer-web{
@@ -526,6 +705,8 @@ body{
         width: 20px;
         height: 20px;
         flex-shrink: 0;
+        padding-top: 10px;
+        
     }
     .footer-web p{
         color: #FFF;
@@ -534,6 +715,14 @@ body{
         font-style: normal;
         font-weight: 500;
         line-height: 40px;
+        
+    }
+
+    .footer-line{
+        width: 1320px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.15);;
+        margin: auto;
     }
 
     .footer-social{
@@ -543,6 +732,7 @@ body{
         gap: 10px;
         margin: auto;
         padding-top: 50px;
+        padding-bottom: 30px;
     }
     .footer-social a{
         text-decoration: none;
